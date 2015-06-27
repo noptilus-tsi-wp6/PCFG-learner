@@ -1,13 +1,10 @@
 # Unsupervised Learning of PCFGs
 
-Unsupervised Learning of Probabilistic Context Free Grammars for Event Recognition over Data Streams
+Unsupervised Learning of Probabilistic Context Free Grammars for Event Recognition
 
-Project: European FP7 [Project Noptilus](http://www.noptilus-fp7.eu)
-
-Author: Nikolaos Kofinas (Graduate Student)
-
-Year: 2014
-
+Project: [Noptilus](http://www.noptilus-fp7.eu)<br>
+Author: Nikolaos Kofinas<br>
+Year: 2014<br>
 Institution: School of ECE, Technical University of Crete, Greece
 
 ### Compile
@@ -15,6 +12,8 @@ Institution: School of ECE, Technical University of Crete, Greece
 To compile, issue *make* into the main folder and also inside the folder "Inside-Outside"
 
 ### Run
+
+To run, issue the following in the command line: 
 
 ```
 ./CFG-learner -d dirPath [-l learnFile.csv]+ [-t testFile.csv]+ -e [evalFile.csv]+ -f outFile 
@@ -24,18 +23,18 @@ To compile, issue *make* into the main folder and also inside the folder "Inside
 #### Input
 
 ```
-* dirPath      : The path to the directory with all input and output files
-* learnFile.csv: A csv file containing the learning data
-* testFile.csv : A csv file containing the test data
-* evalFile.csv : A csv file containing the evaluation data
-* outFile      : The prefix to all output files
-* wordSize     : A positive integer indicating the nominal word length
-* mode         : Mode of word formation for parsing a stream of symbols:
-                    0 -> standard fixed nominal length
-                    1 -> uniform distribution around nominal length
-                    2 -> normal distribution around nominal length 
-* symbols      : The number of symbols used for quantization
-* normalization: The value of the normalization (lambda) parameter (typical: 0.005)
+* dirPath       : The path to the directory with all input and output files
+* learnFile.csv : A csv file containing the learning data
+* testFile.csv  : A csv file containing the test data
+* evalFile.csv  : A csv file containing the evaluation data
+* outFile       : The prefix to all output files
+* wordSize      : A positive integer indicating the nominal word length
+* mode          : Mode of word formation for parsing a stream of symbols:
+                     0 -> standard fixed nominal length
+                     1 -> uniform distribution around nominal length
+                     2 -> normal distribution around nominal length 
+* symbols       : The number of symbols used for quantization
+* normalization : The value of the normalization (lambda) parameter (typical: 0.005)
 ```
 
 All the above inputs are necessary!
