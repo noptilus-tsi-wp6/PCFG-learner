@@ -2,8 +2,8 @@
 *.d
 *.depend
 *.layout
-CFG-learner.xcodeproj
-CFG-learner
+PCFG-learner.xcodeproj
+PCFG-learner
 DataSets/Noptilus
 DataSets/results*
 Corpus/Corpus.d
