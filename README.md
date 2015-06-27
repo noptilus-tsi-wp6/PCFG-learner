@@ -16,8 +16,8 @@ To compile, issue *make* into the main folder and also inside the folder "Inside
 To run, issue the following in the command line: 
 
 ```
-./CFG-learner -d dirPath [-l learnFile.csv]+ [-t testFile.csv]+ -e [evalFile.csv]+ -f outFile 
-              -w wordSize -p mode -s symbols -L normalization
+./PCFG-learner -d dirPath [-l learnFile.csv]+ [-t testFile.csv]+ -e [evalFile.csv]+ -f outFile 
+               -w wordSize -p mode -s symbols -L normalization
 ```
 
 #### Input
